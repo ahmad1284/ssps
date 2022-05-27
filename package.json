@@ -1,0 +1,36 @@
+{
+  "name": "ssps",
+  "version": "1.0.0",
+  "description": "Showcasing studen't project at SUZA",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass --watch ./src/_sass:src/_css",
+    "build:sass": "sass ./src/_sass:src/_css",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "build:eleventy": "npx @11ty/eleventy",
+    "dev": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve",
+    "debughard": "DEBUG=Dev:Eleventy* npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmad1284/ssps.git"
+  },
+  "keywords": [
+    "projects"
+  ],
+  "author": "ahmad1284",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmad1284/ssps/issues"
+  },
+  "homepage": "https://github.com/ahmad1284/ssps#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.52.1"
+  }
+}
