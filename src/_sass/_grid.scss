@@ -4,6 +4,9 @@
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    max-width: var(--page-max-width);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profiles__item {
@@ -43,6 +46,7 @@
 .profiles__itemName {
     margin-bottom: 0.75rem;
     color: var(--color-text-fg);
+    font-family: var(--font-heading);
 }
 
 .profiles__itemBio {

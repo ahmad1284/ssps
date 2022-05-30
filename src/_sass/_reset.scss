@@ -11,7 +11,8 @@
   body {
     font-size: 1rem;
     padding: 1rem;
-    font-family: var(--font-family-body);
+    font-family: var(--font-family-serif);
+    font-weight: var(--font-weight-normal);
     background-color: var(--color-page-bg);
   }
   
@@ -32,6 +33,7 @@
     outline-style: solid;
     box-shadow: #fff 0 0 0 0.125rem, var(--color-orange) 0 0 0 0.375rem;
     transition: box-shadow 0.2s ease-in-out;
+    @include focus;
   }
   
   h1,
@@ -40,7 +42,6 @@
   h4,
   h6,
   h6 {
-    font-family: var(--font-family-heading);
     margin: 0;
   }
   
