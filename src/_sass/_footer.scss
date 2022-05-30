@@ -1,5 +1,5 @@
 .footer {
-    margin: 4rem auto 1rem auto;
+    margin: 2rem auto 2rem auto;
     max-width: var(--page-max-width);
 }
 
@@ -50,7 +50,15 @@
     width: min-content;
 }
 
-.footer__copyright {
+.footer__copyright{
+    color: #fff;
+    font-family: var(--font-family-cursive);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer__copyrightLink {
     color:#fff;
     font-family: var(--font-family-cursive);
     font-size: 1.3rem;
