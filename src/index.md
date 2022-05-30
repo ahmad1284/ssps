@@ -6,9 +6,9 @@ metaDescription:
 templateEngineOverride: njk
 ---
 <section class="hero">
-  <div class=""hero__content>
+  <div class="hero__content">
     <h1 class="hero__contentHeadline">Suza Project Showcase</h1>
-    <p class="hero__contentByLine">Inspiring the next generation of students by being catalysts for social change
+    <p class="hero__contentByline">Inspiring the next generation of students by being catalysts for social change
     </p>
     <div class="hero__buttons">
       <a href="https://github.com/ahmad1284/ssps#readme" target="_blank"

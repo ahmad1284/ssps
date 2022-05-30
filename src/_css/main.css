@@ -293,6 +293,26 @@ img {
   margin-bottom: 4rem;
 }
 
+.hero__contentByline {
+  font-family: var(--font-family-serif);
+  color: var(--color-hero-text);
+  font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+  line-height: 1.3;
+  margin-bottom: 4rem;
+}
+
+.hero__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+@media screen and (min-width: 768px) {
+  .hero__buttons {
+    flex-direction: row;
+  }
+}
+
 .hero__button {
   color: #fff;
   background-color: var(--color-button-bg);
