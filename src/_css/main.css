@@ -101,7 +101,7 @@ img {
 
 .header {
   padding: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -119,6 +119,11 @@ img {
   }
   .header svg {
     width: unset;
+  }
+}
+@media screen and (min-width: 900px) {
+  .header {
+    margin-bottom: 4rem;
   }
 }
 
@@ -269,7 +274,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 @media screen and (min-width: 900px) {
   .hero {
