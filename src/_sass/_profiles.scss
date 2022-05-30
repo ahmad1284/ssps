@@ -7,20 +7,17 @@
     max-width: var(--page-max-width);
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 4rem;
 }
 
 .profiles__item {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-image: var(--gradient-pink);
+    background-image: var(--gradient-blue);
     border-radius: var(--border-radius-base);
     padding: 0.75rem;
     box-shadow: 0.75rem 0.75rem 0 0 #000;
-}
-
-.profiles__item:nth-child(2n) {
-    background-image: var(--gradient-blue);
 }
 
 .profiles__itemImgWrapper {

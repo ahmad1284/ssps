@@ -35,20 +35,20 @@ templateEngineOverride: njk
               <a href="https://twitter.com/{{ profile.twitterUsername }}" 
                 target="_blank" 
                 title="{{ profile.name }} on Twitter">
-                {% include "svg/twitter.svg" %}
+                {% include "profile_svg/twitter.svg" %}
               </a>
             {% endif %}
             {% if profile.githubUsername.length > 0 %}
               <a href="https://github.com/{{ profile.githubUsername }}" 
               target="_blank"
               title="{{ profile.name }} on Github">
-                {% include "svg/github.svg" %}
+                {% include "profile_svg/github.svg" %}
               </a>
             {% endif %}
             {% if profile.website.length > 0 %}
               <a href="{{ profile.website }}" 
                 target="_blank" title="{{ profile.name }}'s Website">
-                {% include "svg/globe.svg" %}
+                {% include "profile_svg/globe.svg" %}
               </a>
             {% endif %}
           </span>
